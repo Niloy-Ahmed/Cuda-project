@@ -1,0 +1,150 @@
+/* Basic css */
+/* ----------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+     
+}
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+/* common css */
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    display: block;
+    font-weight: 700;
+}
+h1{
+    font-size: 42px;
+    font-weight: 700;
+}
+/* reuseable */
+section{
+    padding: 80px 0px;
+}
+/* defualt color  */
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link,
+.navbar-light .navbar-nav .nav-link {
+    color:white;
+}
+/* Header */
+li a{
+    color: #fff;
+}
+li a:link,
+li a:visited{
+    color: #fff;
+}
+header{
+    background: #87509c;
+    height: 80vh;
+    position: relative;
+}
+.hero-text-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+/* buttom */
+.btn:link,
+.btn:visited,
+.btn{
+    background: #333;
+    border-bottom: 3px solid #000;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px 50px;
+    display: inline-block;
+    font-weight: 700;
+    margin-top: 40px;
+}
+.btn-hero:hover{
+    color: #fff;
+}
+.btn-hero:link{
+    background: #eb7d4b;
+    border-bottom: #c86a40;
+}
+/* services */
+.services-section{
+background: #17c2a4;
+
+}
+h2{
+    display: inline;
+    margin: auto;
+    font-weight: 700;
+}
+.services-description{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.services-icon{
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+h3{
+    text-align: center;
+    text-transform: uppercase;
+}
+.service-icon-description{
+    font-weight: 700;
+    text-align: center;
+    display: block;
+}
+/* Team section */
+.team-head,
+.team-description{
+    text-align: center;
+}
+.card-images{
+    height: 150px;
+    width: 150px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+.card-icon{
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+.card-btn{
+    padding: 5px 75px;
+    color: white;
+    border-radius: 5px ;
+    background: rgba(0, 0, 0, 0.9);
+    text-transform: uppercase;
+}
+.card-btn:hover{
+    background-color: green;
+}
+/* Skill se */
+svg.radial-progress{
+    height: auto;
+    max-width: 200px;
+    margin: auto;
+    padding: 1em;
+    transform: rotate(-90deg);
+    width: 100%;
+}
+  
+svg.radial-progress circle {
+    fill: rgba(0,0,0,0);
+    stroke: rgb(10, 228, 10);
+    stroke-dashoffset: 219.91148575129; 
+    stroke-width: 10;
+}
+svg.radial-progress circle.complete { stroke-dasharray: 219.91148575129; }
+svg.radial-progress circle.incomplete { opacity: 0.25; }
+svg.radial-progress text {
+    fill: gray;
+    text-anchor: middle;
+}
